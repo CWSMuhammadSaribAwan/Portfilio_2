@@ -1,0 +1,2183 @@
+/* Add Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
+/* Css Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Website Body */
+body {
+    background-image: url('/Images/Website\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Website Header */
+#header {
+    position: relative;
+}
+
+#header::before {
+    content: "";
+    position: absolute;
+    background-image: url('/Images/Website\ Header\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin: 15px 0px;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 30px;
+}
+
+.nav-link {
+    display: block;
+    color: #f8eed4;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#icon-1 {
+    color: white;
+}
+
+/* Website Banner */
+#banner {
+    background-image: url('/Images/Website\ Banner\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#banner-second-box {
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.banner-h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Bowlby One SC', cursive;
+    margin-top: 50px;
+}
+
+.banner-para {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 0px;
+}
+
+.banner-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px;
+}
+
+.banner-btn:hover {
+    color: white;
+}
+
+/* Website Section1 */
+#section1 {
+    background-image: url('/Images/Website\ Section1\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+#inside-section1 {
+    padding-top: 300px;
+}
+
+.sec1-h2 {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    margin: 20px 0px;
+}
+
+.sec1-h3 {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    margin: 30px 0px;
+}
+
+/* Website Section2 */
+#section2 {
+    background-image: url('/Images/Website\ Section2\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 898px;
+    width: 100%;
+}
+
+.sec2-h2 {
+    color: #bd6827;
+    font-size: 2.5rem;
+    font-family: 'Bowlby One SC', cursive;
+    margin: 30px 0px;
+}
+
+#section2-unorderlist li {
+    color: #bd6827;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section2-unorderlist li a {
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Website Section3 */
+#section3 {
+    background-image: url('/Images/Website\ Section3\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 897px;
+    width: 100%;
+}
+
+.sec3-h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Bowlby One SC', cursive;
+    margin: 30px 0px;
+}
+
+#section3-unorderlist li {
+    color: #bd6827;
+    font-size: 20px;
+    padding: 15px 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section3-unorderlist li a {
+    color: white;
+    font-size: 2rem;
+}
+
+/* Website Section4 */
+#section4 {
+    background-image: url('/Images/Website\ Section4\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+/* Website Section5 */
+#section5 {
+    background-image: url('/Images/Website\ Section5\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.sec5-h2 {
+    font-size: 2.5rem;
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    margin: 50px 0px;
+}
+
+.card-text {
+    color: #c7954f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.Card-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 0px;
+}
+
+.Card-btn:hover {
+    color: white;
+}
+
+/* Website Section6 */
+#section6 {
+    background-image: url('/Images/Website\ Section6\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#inside-section6 {
+    background-image: url('/Images/Inside\ Section6\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 20px 50px;
+    height: 80%;
+}
+
+.sec6-h2 {
+    font-size: 2.5rem;
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#myfirstformtag,
+#mysecondformtag,
+#mythirdformtag,
+#myfourformtag,
+#myfiveformtag {
+    border-radius: 0px;
+    background-color: #f8eed3;
+    color: #999999;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-btn {
+    color: white;
+    background-color: rgb(235, 189, 104);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0px;
+}
+
+.form-btn:hover {
+    color: white;
+}
+
+/* Website Section7 */
+#section7 {
+    background-image: url('/Images/Website\ Section7\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#section7::before {
+    content: "";
+    background-image: url('/Images/Inside\ Section7\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.sec7-h2 {
+    color: #f8eed3;
+    font-size: 2.5rem;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.sec7-para {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 20px 0px;
+}
+
+.input-group {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#mysixformtag {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0px;
+}
+
+.section7-btn {
+    background-color: #f8eed3;
+    color: #bd6827;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 30px;
+}
+
+.section7-btn:hover {
+    color: #bd6827;
+}
+
+/* Website Footer */
+#footer {
+    background-image: url('/Images/Website\ Footer\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.lastsection {
+    padding: 80px 0px;
+}
+
+.last-img {
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.footer-h2 {
+    color: #ebbd68;
+    font-family: 'EB Garamond', serif;
+}
+
+#last-h2 {
+    font-size: 1.5rem;
+}
+
+.footer-para {
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-ul {
+    margin: 20px 0px;
+}
+
+.footer-ul li {
+    list-style: none;
+}
+
+.footer-ul li a {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+
+.lastimages {
+    margin: 20px 10px;
+}
+
+#mysevenformtag {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.footer-btn {
+    color: white;
+    border-radius: 0px;
+    background-color: #ebbd68;
+    border: 1px solid white;
+}
+
+#lastimage {
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#lastpara1 {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#lastpara2 {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    margin-left: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Website Header */
+    #header {
+        position: relative;
+    }
+
+    #header::before {
+        content: "";
+        position: absolute;
+        background-image: url('/Images/Website\ Header\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin: 20px 0px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        display: block;
+        color: #f8eed4;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    #icon-1 {
+        color: white;
+    }
+
+    /* Website Banner */
+    #banner {
+        background-image: url('/Images/Website\ Banner\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #banner-second-box {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .banner-h1 {
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin-top: 30px;
+    }
+
+    .banner-para {
+        color: white;
+        font-size: 0.9rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 30px 0px;
+    }
+
+    .banner-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px;
+    }
+
+    .banner-btn:hover {
+        color: white;
+    }
+
+    /* Website Section1 */
+    #section1 {
+        background-image: url('/Images/Website\ Section1\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    #inside-section1 {
+        padding-top: 170px;
+    }
+
+    .sec1-h2 {
+        color: white;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    .sec1-h3 {
+        color: white;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 30px 0px;
+    }
+
+    /* Website Section2 */
+    #section2 {
+        background-image: url('/Images/Website\ Section2\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+    }
+
+    .sec2-h2 {
+        color: #bd6827;
+        font-size: 2rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    #section2-unorderlist li {
+        color: #bd6827;
+        font-size: 18px;
+        margin-left: 25px;
+        padding-top: 25px;
+        padding-left: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section2-unorderlist li a {
+        color: white;
+        font-size: 1rem;
+    }
+
+    /* Website Section3 */
+    #section3 {
+        background-image: url('/Images/Website\ Section3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
+
+    .sec3-h2 {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 30px 0px;
+    }
+
+    #section3-unorderlist li {
+        color: #bd6827;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section3-unorderlist li a {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    /* Website Section4 */
+    #section4 {
+        background-image: url('/Images/Website\ Section4\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 100%;
+    }
+
+    /* Website Section5 */
+    #section5 {
+        background-image: url('/Images/Website\ Section5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    .sec5-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin: 50px 0px;
+    }
+
+    .card-text {
+        color: #c7954f;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+    }
+
+    .Card-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5px 0px;
+    }
+
+    .Card-btn:hover {
+        color: white;
+    }
+
+    /* Website Section6 */
+    #section6 {
+        background-image: url('/Images/Website\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    #inside-section6 {
+        background-image: url('/Images/Inside\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px 50px;
+        height: 80%;
+    }
+
+    .sec6-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    #myfirstformtag,
+    #mysecondformtag,
+    #mythirdformtag,
+    #myfourformtag,
+    #myfiveformtag {
+        border-radius: 0px;
+        background-color: #f8eed3;
+        color: #999999;
+        outline: none;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .form-btn {
+        color: white;
+        background-color: rgb(235, 189, 104);
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 0px;
+    }
+
+    .form-btn:hover {
+        color: white;
+    }
+
+    /* Website Section7 */
+    #section7 {
+        background-image: url('/Images/Website\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+
+    #section7::before {
+        content: "";
+        background-image: url('/Images/Inside\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec7-h2 {
+        color: #f8eed3;
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .sec7-para {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.8rem;
+        margin: 20px 0px;
+    }
+
+    .input-group {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    #mysixformtag {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 0px;
+    }
+
+    .section7-btn {
+        background-color: #f8eed3;
+        color: #bd6827;
+        border-radius: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0px 30px;
+    }
+
+    .section7-btn:hover {
+        color: #bd6827;
+    }
+
+    /* Website Footer */
+    #footer {
+        background-image: url('/Images/Website\ Footer\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .lastsection {
+        padding: 50px 0px;
+    }
+
+    .last-img {
+        height: 50px;
+        margin: 20px 0px;
+    }
+
+    .footer-h2 {
+        color: #ebbd68;
+        font-family: 'EB Garamond', serif;
+    }
+
+    #last-h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-para {
+        color: white;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .footer-ul {
+        margin: 20px 0px;
+    }
+
+    .footer-ul li {
+        list-style: none;
+    }
+
+    .footer-ul li a {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        text-decoration: none;
+    }
+
+    .lastimages {
+        height: 15px;
+        margin: 20px 8px;
+    }
+
+    #mysevenformtag {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .footer-btn {
+        color: white;
+        border-radius: 0px;
+        background-color: #ebbd68;
+        border: 1px solid white;
+    }
+
+    #lastimage {
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    #lastpara1 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+
+    #lastpara2 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Website Header */
+    #header {
+        position: relative;
+    }
+
+    #header::before {
+        content: "";
+        position: absolute;
+        background-image: url('/Images/Website\ Header\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin: 20px 0px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        display: block;
+        color: #f8eed4;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    #icon-1 {
+        color: white;
+    }
+
+    /* Website Banner */
+    #banner {
+        background-image: url('/Images/Website\ Banner\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+    .banner-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #banner-second-box {
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .banner-h1 {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin-top: 50px;
+    }
+
+    .banner-para {
+        color: white;
+        font-size: 0.7rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 30px 0px;
+    }
+
+    .banner-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px;
+    }
+
+    .banner-btn:hover {
+        color: white;
+    }
+
+    /* Website Section1 */
+    #section1 {
+        background-image: url('/Images/Website\ Section1\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    #inside-section1 {
+        padding-top: 150px;
+    }
+
+    .section1-img {
+        height: 30px;
+    }
+
+    .sec1-h2 {
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    .sec1-h3 {
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 30px 0px;
+    }
+
+    /* Website Section2 */
+    #section2 {
+        background-image: url('/Images/Website\ Section2\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+    }
+
+    .sec2-h2 {
+        color: #bd6827;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    #section2-unorderlist li {
+        color: #bd6827;
+        font-size: 17px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-left: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section2-unorderlist li a {
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    /* Website Section3 */
+    #section3 {
+        background-image: url('/Images/Website\ Section3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    .sec3-h2 {
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 30px 0px;
+    }
+
+    #section3-unorderlist li {
+        color: #bd6827;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section3-unorderlist li a {
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    /* Website Section4 */
+    #section4 {
+        background-image: url('/Images/Website\ Section4\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+    }
+
+    /* Website Section5 */
+    #section5 {
+        background-image: url('/Images/Website\ Section5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 580px;
+        width: 100%;
+    }
+
+    .sec5-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin: 50px 0px;
+    }
+
+    .card-text {
+        color: #c7954f;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.6rem;
+    }
+
+    .Card-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5px 0px;
+    }
+
+    .Card-btn:hover {
+        color: white;
+    }
+
+    /* Website Section6 */
+    #section6 {
+        background-image: url('/Images/Website\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    #inside-section6 {
+        background-image: url('/Images/Inside\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px 50px;
+        height: 80%;
+    }
+
+    .sec6-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    #myfirstformtag,
+    #mysecondformtag,
+    #mythirdformtag,
+    #myfourformtag,
+    #myfiveformtag {
+        border-radius: 0px;
+        background-color: #f8eed3;
+        color: #999999;
+        outline: none;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .form-btn {
+        color: white;
+        background-color: rgb(235, 189, 104);
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 0px;
+    }
+
+    .form-btn:hover {
+        color: white;
+    }
+
+    /* Website Section7 */
+    #section7 {
+        background-image: url('/Images/Website\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+        position: relative;
+    }
+
+    #section7::before {
+        content: "";
+        background-image: url('/Images/Inside\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec7-h2 {
+        color: #f8eed3;
+        font-size: 2rem;
+        font-family: 'Bowlby One SC', cursive;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .sec7-para {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.6rem;
+        margin: 20px 0px;
+    }
+
+    .input-group {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #mysixformtag {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 0px;
+    }
+
+    .section7-btn {
+        background-color: #f8eed3;
+        color: #bd6827;
+        border-radius: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0px 20px;
+    }
+
+    .section7-btn:hover {
+        color: #bd6827;
+    }
+
+    /* Website Footer */
+    #footer {
+        background-image: url('/Images/Website\ Footer\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .lastsection {
+        padding: 50px 0px;
+    }
+
+    .last-img {
+        height: 30px;
+        margin: 10px 0px;
+    }
+
+    .footer-h2 {
+        color: #ebbd68;
+        font-size: 1.5rem;
+        font-family: 'EB Garamond', serif;
+        margin: 10px 0px;
+    }
+
+    #last-h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-para {
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .footer-ul {
+        margin: 20px 0px;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        padding: 5px 0px;
+    }
+
+    .footer-ul li a {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        text-decoration: none;
+    }
+
+    .lastimages {
+        height: 13px;
+        margin: 10px 8px;
+    }
+
+    #mysevenformtag {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .footer-btn {
+        color: white;
+        border-radius: 0px;
+        background-color: #ebbd68;
+        border: 1px solid white;
+    }
+
+    #lastimage {
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #lastpara1 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+
+    #lastpara2 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+
+    /* Website Header */
+    #header {
+        position: relative;
+    }
+
+    #header::before {
+        content: "";
+        position: absolute;
+        background-image: url('/Images/Website\ Header\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin: 20px 0px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        display: block;
+        color: #f8eed4;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    #icon-1 {
+        color: white;
+    }
+
+    /* Website Banner */
+    #banner {
+        background-image: url('/Images/Website\ Banner\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #banner-second-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .banner-h1 {
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin-top: 30px;
+    }
+
+    .banner-para {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 30px 0px;
+    }
+
+    .banner-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px;
+    }
+
+    .banner-btn:hover {
+        color: white;
+    }
+
+    /* Website Section1 */
+    #section1 {
+        background-image: url('/Images/Website\ Section1\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    #inside-section1 {
+        padding-top: 120px;
+    }
+
+    .section1-img {
+        height: 20px;
+    }
+
+    .sec1-h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    .sec1-h3 {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    /* Website Section2 */
+    #section2 {
+        background-image: url('/Images/Website\ Section2\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+    }
+
+    .sec2-h2 {
+        color: #bd6827;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    #section2-unorderlist li {
+        color: #bd6827;
+        font-size: 17px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-left: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section2-unorderlist li a {
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    /* Website Section3 */
+    #section3 {
+        background-image: url('/Images/Website\ Section3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    .sec3-h2 {
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    #section3-unorderlist li {
+        color: #bd6827;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section3-unorderlist li a {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    /* Website Section4 */
+    #section4 {
+        background-image: url('/Images/Website\ Section4\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Website Section5 */
+    #section5 {
+        background-image: url('/Images/Website\ Section5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec5-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin: 30px 0px;
+    }
+
+    .card-text {
+        color: #c7954f;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .Card-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5px 0px;
+    }
+
+    .Card-btn:hover {
+        color: white;
+    }
+
+    /* Website Section6 */
+    #section6 {
+        background-image: url('/Images/Website\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    #inside-section6 {
+        background-image: url('/Images/Inside\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px 50px;
+        height: 90%;
+    }
+
+    .sec6-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    #myfirstformtag,
+    #mysecondformtag,
+    #mythirdformtag,
+    #myfourformtag,
+    #myfiveformtag {
+        border-radius: 0px;
+        background-color: #f8eed3;
+        color: #999999;
+        outline: none;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .form-btn {
+        color: white;
+        background-color: rgb(235, 189, 104);
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 0px;
+    }
+
+    .form-btn:hover {
+        color: white;
+    }
+
+    /* Website Section7 */
+    #section7 {
+        background-image: url('/Images/Website\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+
+    #section7::before {
+        content: "";
+        background-image: url('/Images/Inside\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec7-h2 {
+        color: #f8eed3;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .sec7-para {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.5rem;
+        margin: 20px 0px;
+    }
+
+    .input-group {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #mysixformtag {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 0px;
+    }
+
+    .section7-btn {
+        background-color: #f8eed3;
+        color: #bd6827;
+        border-radius: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0px 20px;
+    }
+
+    .section7-btn:hover {
+        color: #bd6827;
+    }
+
+    /* Website Footer */
+    #footer {
+        background-image: url('/Images/Website\ Footer\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .lastsection {
+        padding: 50px 0px;
+    }
+
+    .last-img {
+        height: 30px;
+        margin: 10px 0px;
+    }
+
+    .footer-h2 {
+        color: #ebbd68;
+        font-size: 1.5rem;
+        font-family: 'EB Garamond', serif;
+        margin: 10px 0px;
+    }
+
+    #last-h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-para {
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .footer-ul {
+        margin: 20px 0px;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        padding: 5px 0px;
+    }
+
+    .footer-ul li a {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        text-decoration: none;
+    }
+
+    .lastimages {
+        height: 13px;
+        margin: 10px 8px;
+    }
+
+    #mysevenformtag {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .footer-btn {
+        color: white;
+        border-radius: 0px;
+        background-color: #ebbd68;
+        border: 1px solid white;
+    }
+
+    #lastimage {
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #lastpara1 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+
+    #lastpara2 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Website Header */
+    #header {
+        position: relative;
+    }
+
+    #header::before {
+        content: "";
+        position: absolute;
+        background-image: url('/Images/Website\ Header\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin: 0px 0px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .nav-item {
+        font-size: 0.8rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        display: block;
+        color: #f8eed4;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    #icon-1 {
+        color: white;
+    }
+
+    /* Website Banner */
+    #banner {
+        background-image: url('/Images/Website\ Banner\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #banner-second-box {
+        padding-top: 80px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .banner-h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin-top: 30px;
+    }
+
+    .banner-para {
+        color: white;
+        font-size: 9px;
+        font-family: 'Open Sans', sans-serif;
+        margin: 20px 0px;
+    }
+
+    .banner-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px;
+    }
+
+    .banner-btn:hover {
+        color: white;
+    }
+
+    /* Website Section1 */
+    #section1 {
+        background-image: url('/Images/Website\ Section1\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+    }
+
+    #inside-section1 {
+        padding-top: 70px;
+    }
+
+    .section1-img {
+        height: 15px;
+    }
+
+    .sec1-h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    .sec1-h3 {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    /* Website Section2 */
+    #section2 {
+        background-image: url('/Images/Website\ Section2\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+    }
+
+    .sec2-h2 {
+        color: #bd6827;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 30px 0px;
+    }
+
+    #section2-unorderlist li {
+        color: #bd6827;
+        list-style: none;
+        font-size: 17px;
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-left: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section2-unorderlist li a {
+        color: white;
+        font-size: 1rem;
+    }
+
+    /* Website Section3 */
+    #section3 {
+        background-image: url('/Images/Website\ Section3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    .sec3-h2 {
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        margin: 20px 0px;
+    }
+
+    #section3-unorderlist li {
+        color: #bd6827;
+        list-style: none;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #section3-unorderlist li a {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    /* Website Section4 */
+    #section4 {
+        background-image: url('/Images/Website\ Section4\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Website Section5 */
+    #section5 {
+        background-image: url('/Images/Website\ Section5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec5-h2 {
+        font-size: 2.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin: 30px 0px;
+    }
+
+    .card-text {
+        color: #c7954f;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .Card-btn {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('/Images/Website\ Banner\ Background\ Button\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5px 0px;
+    }
+
+    .Card-btn:hover {
+        color: white;
+    }
+
+    /* Website Section6 */
+    #section6 {
+        background-image: url('/Images/Website\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    #inside-section6 {
+        background-image: url('/Images/Inside\ Section6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px 50px;
+        height: 90%;
+    }
+
+    .sec6-h2 {
+        font-size: 1.5rem;
+        font-family: 'Bowlby One SC', cursive;
+        color: white;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #myfirstformtag,
+    #mysecondformtag,
+    #mythirdformtag,
+    #myfourformtag,
+    #myfiveformtag {
+        border-radius: 0px;
+        background-color: #f8eed3;
+        color: #999999;
+        outline: none;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .form-btn {
+        color: white;
+        background-color: rgb(235, 189, 104);
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 0px;
+    }
+
+    .form-btn:hover {
+        color: white;
+    }
+
+    /* Website Section7 */
+    #section7 {
+        background-image: url('/Images/Website\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+
+    #section7::before {
+        content: "";
+        background-image: url('/Images/Inside\ Section7\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec7-h2 {
+        color: #f8eed3;
+        font-size: 1rem;
+        font-family: 'Bowlby One SC', cursive;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .sec7-para {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.4rem;
+        margin: 20px 0px;
+    }
+
+    .input-group {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #mysixformtag {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 0px;
+    }
+
+    .section7-btn {
+        background-color: #f8eed3;
+        color: #bd6827;
+        border-radius: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0px 10px;
+    }
+
+    .section7-btn:hover {
+        color: #bd6827;
+    }
+
+    /* Website Footer */
+    #footer {
+        background-image: url('/Images/Website\ Footer\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .lastsection {
+        padding: 50px 0px;
+    }
+
+    .last-img {
+        height: 30px;
+        margin: 10px 0px;
+    }
+
+    .footer-h2 {
+        color: #ebbd68;
+        font-size: 1.5rem;
+        font-family: 'EB Garamond', serif;
+        margin: 10px 0px;
+    }
+
+    #last-h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-para {
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .footer-ul {
+        margin: 20px 0px;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        padding: 5px 0px;
+    }
+
+    .footer-ul li a {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        text-decoration: none;
+    }
+
+    .lastimages {
+        height: 13px;
+        margin: 10px 8px;
+    }
+
+    #mysevenformtag {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .footer-btn {
+        color: white;
+        border-radius: 0px;
+        background-color: #ebbd68;
+        border: 1px solid white;
+    }
+
+    #lastimage {
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #lastpara1 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+
+    #lastpara2 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+}
